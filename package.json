@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "scripts": {
+    "postinstall": "dotnet tool restore",
+    "start": "dotnet fable watch src --run webpack serve"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@material-ui/core": "^4.12.4",
+    "@mui/material": "^5.10.12",
+    "@webpack-cli/serve": "^1.7.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "toastr": "^2.1.4",
+    "webpack": "^5.14.0",
+    "webpack-dev-server": "^4.10.0",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.3.6",
+    "uglify-js": "^3.17.3",
+    "webpack-cli": "^4.10.0"
+  }
+}
