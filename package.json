@@ -14,7 +14,7 @@
     "react-dom": "^17.0.1",
     "toastr": "^2.1.4",
     "webpack": "^5.14.0",
-    "webpack-dev-server": "^4.10.0",
+    "webpack-dev-server": "^6.1.0",
     "yarn": "^1.22.19"
   },
   "devDependencies": {
